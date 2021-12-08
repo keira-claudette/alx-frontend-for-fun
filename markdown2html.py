@@ -9,8 +9,8 @@ if len(sys.argv) != 3:
 
 if os.path.exists("file.txt") == False:
   print("Missing {}".format(sys.argv[1]))
-  exit 1
+  exit (1)
   
- else:
+else:
   print()
-  exit 0
+  exit (0)
