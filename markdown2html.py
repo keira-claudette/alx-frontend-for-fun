@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" This module translates markdown to html."""
 if __name__ == "__main__":
     import sys
     import os
